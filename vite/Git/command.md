@@ -22,8 +22,12 @@
 * git fetch [alias] 和 git pull  拉取远端代码到你本地（git fetch 拉取不合并）（git pull 拉取自动合并）
 * git merge [alias]/[branch] 将你拉取得远端代码和本地代码合并
 * cat `<file> 查看文件`
-* git pull 远程主机名 推送本地代码到远程分支
-* git pull 远程分支名:本地分支名  远程和本地分支名一直可省略冒号 将本地的分支版本上传到远程并合并
+* git push 远程主机名 推送本地代码到远程分支
+* git push 远程分支名:本地分支名  远程和本地分支名一直可省略冒号 将本地的分支版本上传到远程并合并
+* git push origin branchName:branchName 推送本地分支到远程主机下的某个分支并合并
+* git push --force orgin branchName 强制推送
+* git branch  --set-upstream-to=origin/dev 关联本地分支和上游分支
+* git push -u orgin/dev 提交上游分支
 * ***分支***
 * git branch branchName 创建分支
 * git checkout branchName 切换分支
@@ -33,19 +37,8 @@
 * git branch -d branckName 删除分支
 * git merge branchName 合并分支
 
-
-
-
-
-
-
 1. index(stage) 暂存区
 
 * git commit -m'提交说明' 提交代码到本地仓库
-
-
-
-
-
 
 1. **repository 版本库(本地仓库)**
