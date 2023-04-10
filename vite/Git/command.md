@@ -27,7 +27,7 @@
 * git push origin branchName:branchName 推送本地分支到远程主机下的某个分支并合并
 * git push --force orgin branchName 强制推送
 * git branch  --set-upstream-to=origin/dev 关联本地分支和上游分支
-* git push -u orgin/dev 提交上游分支
+* git push -u origin/dev 提交上游分支
 * ***分支***
 * git branch branchName 创建分支
 * git checkout branchName 切换分支
