@@ -16,7 +16,7 @@
 * git config  显示git配置信息
 * git diff 比较文件的不同（暂存和工作区域）
 * git remote -v 显示远程仓库
-* git remote add alias url 创建远程分支
+* git remote add alias url 添加新的远端仓库
 * git remote rm name 删除远程库
 * git remote rename oldname newname 修改远程版本库名字
 * git fetch [alias] 和 git pull  拉取远端代码到你本地（git fetch 拉取不合并）（git pull 拉取自动合并）
