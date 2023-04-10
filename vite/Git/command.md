@@ -16,7 +16,7 @@
 * git config  显示git配置信息
 * git diff 比较文件的不同（暂存和工作区域）
 * git remote -v 显示远程仓库
-* git remote add alias url 添加远程版本库
+* git remote add alias url 创建远程分支
 * git remote rm name 删除远程库
 * git remote rename oldname newname 修改远程版本库名字
 * git fetch [alias] 和 git pull  拉取远端代码到你本地（git fetch 拉取不合并）（git pull 拉取自动合并）
@@ -26,8 +26,8 @@
 * git push 远程分支名:本地分支名  远程和本地分支名一直可省略冒号 将本地的分支版本上传到远程并合并
 * git push origin branchName:branchName 推送本地分支到远程主机下的某个分支并合并
 * git push --force orgin branchName 强制推送
-* git branch  --set-upstream-to=origin/dev 关联本地分支和上游分支
-* git push -u origin/dev 提交上游分支
+* git branch  --set-upstream-to=origin dev 关联本地分支和上游分支
+* git push -u origin dev 提交上游分支
 * ***分支***
 * git branch branchName 创建分支
 * git checkout branchName 切换分支
